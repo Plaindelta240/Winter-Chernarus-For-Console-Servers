@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<events>
+    <!-- 🦌 Dense Deer Populations (More groups in forested areas) -->
+    <event name="AnimalDeer">
+        <nominal>75</nominal>
+        <min>40</min>
+        <max>90</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>50</saferadius>
+        <distanceradius>150</distanceradius>
+        <cleanupradius>80</cleanupradius>
+        <flags deletable="1" init_random="1" remove_damaged="0"/>
+        <position>player</position>
+        <limit>world</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Deer"/>
+        </children>
+    </event>
+
+    <!-- 🐇 Rabbits Common in Fields and Forest Edges -->
+    <event name="AnimalRabbit">
+        <nominal>60</nominal>
+        <min>30</min>
+        <max>80</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>40</saferadius>
+        <distanceradius>100</distanceradius>
+        <cleanupradius>50</cleanupradius>
+        <flags deletable="1" init_random="1" remove_damaged="0"/>
+        <position>player</position>
+        <limit>world</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Rabbit"/>
+        </children>
+    </event>
+
+    <!-- 🐺 Wolves More Frequent, Especially in the North -->
+    <event name="AnimalWolf">
+        <nominal>20</nominal>
+        <min>8</min>
+        <max>25</max>
+        <lifetime>600</lifetime>
+        <restock>0</restock>
+        <saferadius>150</saferadius>
+        <distanceradius>300</distanceradius>
+        <cleanupradius>150</cleanupradius>
+        <flags deletable="1" init_random="1" remove_damaged="0"/>
+        <position>player</position>
+        <limit>world</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Wolf"/>
+        </children>
+    </event>
+
+    <!-- 🐗 Wild Boars for Additional Meat and Challenge -->
+    <event name="AnimalBoar">
+        <nominal>25</nominal>
+        <min>10</min>
+        <max>30</max>
+        <lifetime>400</lifetime>
+        <restock>0</restock>
+        <saferadius>60</saferadius>
+        <distanceradius>150</distanceradius>
+        <cleanupradius>80</cleanupradius>
+        <flags deletable="1" init_random="1" remove_damaged="0"/>
+        <position>player</position>
+        <limit>world</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Boar"/>
+        </children>
+    </event>
+</events>

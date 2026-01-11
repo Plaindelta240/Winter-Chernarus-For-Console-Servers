@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<weather>
+    <!-- Controls the global weather behavior -->
+    <overcast>
+        <!-- 0.0 = clear sky, 1.0 = fully cloudy -->
+        <min>0.0</min>
+        <max>0.5</max>
+        <forecastChangeMin>0.05</forecastChangeMin>
+        <forecastChangeMax>0.2</forecastChangeMax>
+        <forecastTimeMin>1200</forecastTimeMin>
+        <forecastTimeMax>3600</forecastTimeMax>
+    </overcast>
+
+    <rain>
+        <!-- Disable rain entirely -->
+        <min>0.0</min>
+        <max>0.0</max>
+        <forecastChangeMin>0.0</forecastChangeMin>
+        <forecastChangeMax>0.0</forecastChangeMax>
+        <forecastTimeMin>0</forecastTimeMin>
+        <forecastTimeMax>0</forecastTimeMax>
+    </rain>
+
+    <fog>
+        <!-- Allow foggy conditions to appear -->
+        <min>0.0</min>
+        <max>0.6</max>
+        <forecastChangeMin>0.05</forecastChangeMin>
+        <forecastChangeMax>0.3</forecastChangeMax>
+        <forecastTimeMin>900</forecastTimeMin>
+        <forecastTimeMax>2400</forecastTimeMax>
+    </fog>
+
+    <wind>
+        <!-- Slight wind for realism -->
+        <min>0.1</min>
+        <max>0.4</max>
+    </wind>
+
+    <storm>
+        <!-- Disable storms entirely -->
+        <min>0.0</min>
+        <max>0.0</max>
+    </storm>
+
+    <lighting>
+        <!-- Disable lightning -->
+        <min>0.0</min>
+        <max>0.0</max>
+    </lighting>
+</weather>
